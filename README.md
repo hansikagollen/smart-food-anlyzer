@@ -1,9 +1,8 @@
 # AI-Powered Freshness Detection for Fruits and Vegetables
 
 ## Project Overview
-Food waste and spoilage are major global challenges, impacting both the economy and public health. This project aims to develop an AI-powered system for **automatic detection of freshness in fruits and vegetables**. By leveraging the strengths of **Convolutional Neural Networks (CNNs)** for spatial feature extraction and **Bidirectional Long Short-Term Memory networks (Bi-LSTM)** for modeling temporal or sequential changes, the system can accurately classify produce as **Fresh**, **Semi-Fresh**, or **Spoiled**.
+Reducing food waste and promoting healthy eating require accurate, real-time assessment of fruit and vegetable quality. This project presents an AI-powered end-to-end system that detects freshness, estimates calories and nutrient content, and delivers the results via a user-friendly application. Freshness is analyzed using a hybrid CNN–BiLSTM model, where CNN extracts spatial features from images and Bi-LSTM captures temporal or multi-view variations, enabling classification into fresh, semi-fresh, or spoiled categories. For nutritional estimation, YOLOv5 detects and segments individual fruits and vegetables, which are then mapped to an external database (e.g., USDA FoodData Central) to calculate calorie and nutrient content. The system is integrated into an application that allows users to capture images of produce and instantly receive freshness status and nutritional information. This project combines deep learning, object detection, database mapping, and real-world deployment, offering a novel and practical solution for consumers, retailers, and the food supply chain.
 
-By combining image-based analysis with sequence modeling, the system handles **multi-view or time-lapse data**, enabling more robust and reliable freshness detection. This approach contributes to **reducing food waste**, **improving consumer safety**, and advancing hybrid CNN–Bi-LSTM architectures in agricultural applications.
 
 ## Features
 - Automatic classification of fruits and vegetables into freshness categories.
