@@ -47,15 +47,3 @@ The approach combines **deep learning (CNN/EfficientNet/YOLO)** with **heuristic
 -  **Supply Chain**: Predict shelf life during storage/transport.  
 -  **Healthcare**: Prevent consumption of harmful spoiled produce.  
 
----
-
-##  Workflow  
-
-```mermaid
-graph TD
-    A[Image Capture/Upload] --> B[Preprocessing]
-    B --> C[Heuristic Analysis (Color, Spots, Texture)]
-    C --> D[Deep Learning Model (EfficientNet / YOLO)]
-    D --> E[Classification: Fresh / Semi-Rotten / Rotten]
-    E --> F[Shelf-life Estimation]
-    F --> G[Output: Class + Days Left + Nutritional Info (USDA API)]
